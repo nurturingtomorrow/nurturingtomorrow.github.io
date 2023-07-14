@@ -1,14 +1,4 @@
-/**
-* Template Name: Groovin
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/groovin-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -786,22 +776,22 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Why Us
+# Sustain
 --------------------------------------------------------------*/
-.why-us .box {
+.sustain .box {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
 }
 
-.why-us .box span {
+.sustain .box span {
   display: block;
   font-size: 28px;
   font-weight: 700;
   color: #8ed851;
 }
 
-.why-us .box h4 {
+.sustain .box h4 {
   font-size: 24px;
   font-weight: 600;
   padding: 0;
@@ -809,22 +799,22 @@ section {
   color: #2a2a2a;
 }
 
-.why-us .box p {
+.sustain .box p {
   color: #aaaaaa;
   font-size: 15px;
   margin: 0;
   padding: 0;
 }
 
-.why-us .box:hover {
+.sustain .box:hover {
   background: #5c9f24;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
 
-.why-us .box:hover span,
-.why-us .box:hover h4,
-.why-us .box:hover p {
+.sustain .box:hover span,
+.sustain .box:hover h4,
+.sustain .box:hover p {
   color: #fff;
 }
 
@@ -952,7 +942,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# Outreach Details
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
