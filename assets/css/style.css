@@ -632,6 +632,66 @@ section {
   }
 }
 
+
+/*--------------------------------------------------------------
+# Join
+--------------------------------------------------------------*/
+.join .content {
+  padding: 30px 0;
+}
+
+.join .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.join .content p {
+  margin-bottom: 0;
+}
+
+.join .content .icon-box {
+  margin-top: 25px;
+}
+
+.join .content .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0 10px 60px;
+}
+
+.join .content .icon-box i {
+  font-size: 48px;
+  float: left;
+  color: #5c9f24;
+}
+
+.join .content .icon-box p {
+  font-size: 15px;
+  color: #848484;
+  margin-left: 60px;
+}
+
+.join .image {
+  background: url("../img/join.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
+@media (max-width: 991px) {
+  .join .image {
+    text-align: center;
+  }
+
+  .join .image img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 667px) {
+  .join .image img {
+    max-width: 100%;
+  }
+}
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
@@ -1200,7 +1260,17 @@ section {
 .faq .faq-list {
   padding: 0 100px;
 }
-
+.faq button[type=submit] {
+  background: #5c9f24;
+  border: 0;
+  padding: 10px 30px 12px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+.faq button[type=submit]:hover {
+  background: #6ab82a;
+}
 .faq .faq-list ul {
   padding: 0;
   list-style: none;
